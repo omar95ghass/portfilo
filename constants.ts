@@ -66,7 +66,7 @@ export const PROJECTS: Project[] = [
       en: 'Created a comprehensive medical archiving program for clinics and hospitals, digitizing patient records, medical images, and administrative documents for easy and secure storage. Designed a scalable database schema, developed an intuitive UI for document handling, and implemented robust security features for data encryption and access control.',
       ar: 'إنشاء برنامج أرشفة طبية شامل للعيادات والمستشفيات، لرقمنة سجلات المرضى والصور الطبية والمستندات الإدارية لتخزين سهل وآمن. تم تصميم مخطط قاعدة بيانات قابل للتطوير، وتطوير واجهة مستخدم بديهية لمعالجة المستندات، وتنفيذ ميزات أمان قوية لتشفير البيانات والتحكم في الوصول.',
     },
-    imageUrl: 'https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80',
+    imageUrl: 'https://www.medicalwebexperts.com/static/fa41d20823ebb69e62ae93c57b83b949/c6bbb/mobile-web-apps-medical-web-experts-1.jpg',
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
       en: 'Developed a program to connect and streamline services offered by various non-governmental organizations, facilitating collaboration and improving aid delivery. Designed a centralized platform for NGOs to list their services and identify beneficiaries, implemented features for resource sharing, and developed reporting tools to track impact.',
       ar: 'تطوير برنامج لربط وتبسيط الخدمات التي تقدمها مختلف المنظمات غير الحكومية، مما يسهل التعاون ويحسن تقديم المساعدات. تم تصميم منصة مركزية للمنظمات غير الحكومية لإدراج خدماتها وتحديد المستفيدين، وتنفيذ ميزات لمشاركة الموارد، وتطوير أدوات إعداد تقارير لتتبع التأثير.',
     },
-    imageUrl: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
+    imageUrl: 'https://images.wondershare.com/images2025/barcode-scanner-nutritional-information-03.jpg',
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
@@ -156,14 +156,21 @@ export const TRANSLATIONS: Translations = {
                 degree: "Graduate of Dentistry",
                 institution: "Medical Practice Background",
                 date: "",
+            },
+            {
+                degree: "IT Engineering",
+                institution: "SVU - Syria Virtual University, Still Studying",
+                date: "",
             }
         ],
         clients_title: "Previous Clients",
         clients_list: [
-            "Daem Medical Clinic – By Dr.Besher Da'boul.",
-            "Sadek Hasan Company – Tech solutions.",
-            "One-stop center for citizen services in Syria.",
-            "Many other clients for POS project."
+          "Medical Support Complex – Dr. Bishr Daaboul.",
+          "7 Service Centers in Syria.",
+          "35 Clients for the POSX Point of Sale Project.",
+          "17 Clients for the Barcode Reader Application.",
+          "3 Clients for the DMT Project for Medical Facility Management.",
+          "1 Client for the FPMC Medical Fingerprint Management Core Project."
         ],
         languages_title: "Languages",
         languages_list: [
@@ -174,11 +181,10 @@ export const TRANSLATIONS: Translations = {
     contact: {
       title: 'Get In Touch',
       subtitle: 'Have a project in mind or just want to say hi? Feel free to reach out!',
-      form_name: 'Omar Alothman',
-      form_email: 'Your Email',
-      form_message: 'Your Message',
-      form_button: 'Send Message',
-      request_project: 'Request a Project',
+      email_label: 'Email',
+      email_value: 'omar.ghass95@gmail.com',
+      whatsapp_label: 'WhatsApp',
+      whatsapp_value: '(+963) 952 181 789',
     },
     projectDetail: {
         technologies: 'Technologies Used',
@@ -252,8 +258,7 @@ export const TRANSLATIONS: Translations = {
         clients_title: "عملاء سابقون وحاليون",
         clients_list: [
             "مجمع دعم الطبي – د. بشر دعبول.",
-            "شركة صادق حسن لتجارة أجهزة POS.",
-            "مراكز خدمة المواطن في سوريا.",
+            "7 من مراكز تقديم الخدمات في سوريا.",
             "35 من العملاء لمشروع نقاط البيع POSX.",
             "17 من العملاء لتطبيق Barcode Reader.",
             "3 عملاء لمشروع DMT الخاص بإدارة المنشآت الطبية",
@@ -268,11 +273,10 @@ export const TRANSLATIONS: Translations = {
     contact: {
       title: 'تواصل معي',
       subtitle: 'هل لديك مشروع في ذهنك أو تريد فقط أن تقول مرحباً؟ لا تتردد في التواصل!',
-      form_name: 'عمر العثمان',
-      form_email: 'بريدك الإلكتروني',
-      form_message: 'رسالتك',
-      form_button: 'إرسال الرسالة',
-      request_project: 'طلب تصميم مشروع',
+      email_label: 'الإيميل',
+      email_value: 'omar.ghass95@gmail.com',
+      whatsapp_label: 'WhatsApp',
+      whatsapp_value: '(+963) 952 181 789',
     },
     projectDetail: {
         technologies: 'التقنيات المستخدمة',
