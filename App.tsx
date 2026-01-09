@@ -158,7 +158,7 @@ const ContactPage: React.FC = () => {
                         </div>
                         <div className="flex-1">
                             <p className="text-sm text-gray-400 mb-1">{t.email_label}</p>
-                            <a href={`mailto:${t.email_value}`} className="text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
+                            <a href={`mailto:${t.email_value}`} className="text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium" dir="ltr" style={{ display: 'inline-block' }}>
                                 {t.email_value}
                             </a>
                         </div>
@@ -171,7 +171,7 @@ const ContactPage: React.FC = () => {
                         </div>
                         <div className="flex-1">
                             <p className="text-sm text-gray-400 mb-1">{t.whatsapp_label}</p>
-                            <a href={`https://wa.me/963952181789`} target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium">
+                            <a href={`https://wa.me/963952181789`} target="_blank" rel="noopener noreferrer" className="text-teal-400 hover:text-teal-300 transition-colors text-lg font-medium" dir="ltr" style={{ display: 'inline-block' }}>
                                 {t.whatsapp_value}
                             </a>
                         </div>
