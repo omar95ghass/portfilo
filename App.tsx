@@ -6,7 +6,6 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { ProjectCard } from './components/ProjectCard';
 import { GitHubIcon } from './components/Icons';
-import profileImage from './assets/images/profile.jpg';
 
 type Page = 'home' | 'about' | 'resume' | 'contact';
 
@@ -72,7 +71,7 @@ const ResumePage: React.FC = () => {
         <div className="container mx-auto px-6 py-12 animate-fade-in-up">
             <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-8 md:p-12">
                 <div className="text-center mb-8">
-                    <img src={profileImage} alt="Profile" className="rounded-full mx-auto w-40 h-40 object-cover border-4 border-teal-400/50" />
+                    <img src="https://i.ibb.co/SD0PxtXK/profile.jpg" alt="Profile" className="rounded-full mx-auto w-40 h-40 object-cover border-4 border-teal-400/50" />
                     <h2 className="text-4xl font-bold text-white mt-4">{TRANSLATIONS[language].hero.name}</h2>
                 </div>
                 

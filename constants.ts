@@ -1,6 +1,4 @@
 import type { Project, Translations } from './types';
-import posxImage from './assets/images/posx.png';
-import cmsImage from './assets/images/cms.png';
 
 export const PROJECTS: Project[] = [
   {
@@ -32,7 +30,7 @@ export const PROJECTS: Project[] = [
         en: 'Built a user-friendly and efficient Point of Sale (POS) system designed to manage sales transactions, inventory, and customer data for retail businesses. Developed both front-end and back-end components, implemented secure payment processing, and designed an intuitive interface that significantly reduced transaction time.',
         ar: 'بناء نظام نقاط بيع سهل الاستخدام وفعال مصمم لإدارة معاملات البيع والمخزون وبيانات العملاء للشركات التجارية. تم تطوير مكونات الواجهة الأمامية والخلفية، وتنفيذ تكامل آمن لمعالجة الدفع، وتصميم واجهة بديهية قللت بشكل كبير من وقت المعاملات.',
     },
-    imageUrl: posxImage,
+    imageUrl: 'https://i.ibb.co/nMLjZzX9/posx.png',
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'SQLite', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'SQLite', 'AJAX'],
@@ -50,7 +48,7 @@ export const PROJECTS: Project[] = [
         en: 'Engineered a sophisticated system to efficiently manage customer queues and facilitate calling mechanisms in high-traffic service centers. Key responsibilities included designing the core logic for queue management, developing a real-time notification system for calling customers, and creating an administrative dashboard for monitoring.',
         ar: 'هندسة نظام متطور لإدارة طوابير العملاء بكفاءة وتسهيل آليات النداء في مراكز الخدمة المزدحمة. تضمنت المسؤوليات الرئيسية تصميم المنطق الأساسي لإدارة الطابور، وتطوير نظام إشعارات في الوقت الفعلي لمناداة العملاء، وإنشاء لوحة تحكم إدارية للمراقبة.',
     },
-    imageUrl: cmsImage,
+    imageUrl: 'https://i.ibb.co/F4qknZN8/cms.png',
     tags: {
       en: ['PHP', 'React', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'React', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
