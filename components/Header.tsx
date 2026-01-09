@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { TRANSLATIONS } from '../constants';
 import { MenuIcon, CloseIcon } from './Icons';
+import headerImage from '../assets/images/header.jpg';
 
 type Page = 'home' | 'about' | 'resume' | 'contact';
 
@@ -76,7 +77,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) =
         <header className="fixed top-0 left-0 right-0 z-50 bg-gray-900/30 backdrop-blur-xl border-b border-white/10">
             <nav className="container mx-auto px-6 py-3 flex justify-between items-center">
                 <div className="text-2xl font-bold text-white tracking-wider cursor-pointer" onClick={() => setCurrentPage('home')}>
-                    <img src="assets/images/header.jpg" alt="Profile" className="rounded-full mx-auto w-20 h-20 object-cover border-4 border-teal-400/50" />
+                    <img src={headerImage} alt="Profile" className="rounded-full mx-auto w-20 h-20 object-cover border-4 border-teal-400/50" />
                 </div>
                 <div className="hidden md:flex items-center gap-4">
                    <NavItems/>
