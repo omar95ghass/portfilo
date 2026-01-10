@@ -204,11 +204,11 @@ const ProjectDetailPage: React.FC<{ project: Project; onBack: () => void }> = ({
                         <button onClick={onBack} className="flex-1 px-6 py-3 bg-gray-500/50 text-white font-semibold rounded-full hover:bg-gray-500/70 transition-colors duration-300">
                            &larr; {t.back_to_projects}
                         </button>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" 
+                        {/* <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" 
                            className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-teal-500 text-white font-semibold rounded-full shadow-lg shadow-teal-500/20 hover:bg-teal-600 transition-colors duration-300">
                             <GitHubIcon className="h-5 w-5" />
                             {t.visit_github}
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
