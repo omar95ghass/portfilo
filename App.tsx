@@ -32,12 +32,59 @@ const Hero: React.FC<{ onButtonClick: () => void }> = ({ onButtonClick }) => {
     );
 };
 
-const HomePage: React.FC<{ onSelectProject: (id: number) => void }> = ({ onSelectProject }) => {
+const ServicesSection: React.FC<{ onContactClick: () => void }> = ({ onContactClick }) => {
+    const { language } = useLanguage();
+    const t = TRANSLATIONS[language].home as any;
+    
+    return (
+        <div className="container mx-auto px-6 py-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">{t.services_title}</h2>
+            <p className="text-gray-400 text-center mb-12">{t.services_subtitle}</p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+                {t.services.map((service: any, index: number) => (
+                    <div 
+                        key={index}
+                        className="bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl p-6 md:p-8 hover:border-teal-400/50 transition-all duration-300 transform hover:scale-105"
+                    >
+                        <div className="flex items-center justify-center mb-6">
+                            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal-400/20 to-purple-400/20 flex items-center justify-center border-2 border-teal-400/30">
+                                <span className="text-3xl font-bold text-teal-400">{index + 1}</span>
+                            </div>
+                        </div>
+                        <h3 className="text-xl font-bold text-white mb-4 text-center">{service.title}</h3>
+                        <p className="text-gray-300 text-sm leading-relaxed mb-4 text-center">{service.description}</p>
+                        <div className="text-center">
+                            <span className="inline-block bg-teal-400/10 text-teal-300 px-4 py-2 rounded-full text-sm font-semibold">
+                                {service.price}
+                            </span>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            
+            <div className="text-center">
+                <button
+                    onClick={onContactClick}
+                    className="px-8 py-3 bg-teal-500 text-white font-semibold rounded-full shadow-lg shadow-teal-500/20
+                               hover:bg-teal-600 transform hover:scale-105 transition-all duration-300"
+                >
+                    {t.services_contact_button}
+                </button>
+            </div>
+        </div>
+    );
+};
+
+const HomePage: React.FC<{ onSelectProject: (id: number) => void; onContactClick: () => void }> = ({ onSelectProject, onContactClick }) => {
     const { language } = useLanguage();
     const t = TRANSLATIONS[language].home as { [key: string]: string };
     return (
         <div>
-            <Hero onButtonClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })} />
+            <Hero onButtonClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })} />
+            <div id="services">
+                <ServicesSection onContactClick={onContactClick} />
+            </div>
             <div id="projects" className="container mx-auto px-6 py-12">
                 <h2 className="text-3xl font-bold text-white text-center mb-12">{t.latest_projects}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -260,7 +307,7 @@ const AppContent: React.FC = () => {
 
         switch (currentPage) {
             case 'home':
-                return <HomePage onSelectProject={handleSelectProject} />;
+                return <HomePage onSelectProject={handleSelectProject} onContactClick={() => handleSetCurrentPage('contact')} />;
             case 'about':
                 return <AboutPage />;
             case 'resume':
@@ -268,7 +315,7 @@ const AppContent: React.FC = () => {
             case 'contact':
                 return <ContactPage />;
             default:
-                return <HomePage onSelectProject={handleSelectProject} />;
+                return <HomePage onSelectProject={handleSelectProject} onContactClick={() => handleSetCurrentPage('contact')} />;
         }
     };
     

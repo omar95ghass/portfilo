@@ -146,6 +146,26 @@ export const TRANSLATIONS: Translations = {
     },
     home: {
       latest_projects: 'Latest Projects',
+      services_title: 'My Services',
+      services_subtitle: 'Electronic payment can be integrated with all solutions',
+      services_contact_button: 'Contact me for more details',
+      services: [
+        {
+          title: 'Landing Page Design',
+          description: 'Perfect for small businesses, freelancers, e-commerce, and marketers. Can be adapted for medium projects.',
+          price: 'Starting from $10'
+        },
+        {
+          title: 'Complete Web Design with E-Payment',
+          description: 'Perfect for small and medium businesses that need to showcase products, accept card payments, and communicate.',
+          price: 'Starting from $75'
+        },
+        {
+          title: 'Integrated Business Management Systems',
+          description: 'Perfect for small, medium, and large projects.',
+          price: 'Starting from $150'
+        }
+      ]
     },
     about: {
       title: 'About Me',
@@ -247,6 +267,26 @@ export const TRANSLATIONS: Translations = {
     },
     home: {
       latest_projects: 'أحدث المشاريع',
+      services_title: 'خدماتي',
+      services_subtitle: 'يمكن دمج الدفع الالكتروني مع جميع الحلول',
+      services_contact_button: 'لا تتردد في الاتصال للاستفسار عن تفاصيل أكثر',
+      services: [
+        {
+          title: 'تصميم صفحات هبوط',
+          description: 'تناسب المشاريع الصغيرة بشكل رائع وأصحاب الأعمال الحرة والبيع الالكتروني والمسوقين - يمكن ملائمتها للمشاريع المتوسطة',
+          price: 'أسعار تبدأ من 10$'
+        },
+        {
+          title: 'تصميم مواقع ويب متكاملة مع آليات دفع الكتروني',
+          description: 'تناسب المشاريع الصغيرة والمتوسطة ومالكي أعمال تجارية تحتاج عرض منتجات ودفع الكتروني وتواصل',
+          price: 'أسعار تبدأ من 75$'
+        },
+        {
+          title: 'تصميم أنظمة متكاملة لإدارة الأعمال والمهن',
+          description: 'تناسب المشاريع الصغيرة والمتوسطة والكبيرة',
+          price: 'أسعار تبدأ من 150$'
+        }
+      ]
     },
     about: {
       title: 'من أنا',
