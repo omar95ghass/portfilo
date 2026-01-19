@@ -3,24 +3,37 @@
     {
       "id": 1,
       "mockups": [
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
       ],
       "screenshots": [
-        "https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
       ]
     },
     {
       "id": 2,
       "mockups": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzMLP4sKJYqz7_1YVLbTOaGgyJiGJxHcEciw&s",
-        "https://cdn.shopify.com/s/files/1/0070/7032/files/16colorwheel.png?v=1763193448"
+        "https://i.ibb.co/Gf7C25QX/Gemini-Generated-Image-gsmo9egsmo9egsmo.png",
+        "https://i.ibb.co/ccSBDjC4/Screenshot-240.png",
+        "https://i.ibb.co/1fGScXgc/Screenshot-241.png",
+        "https://i.ibb.co/FqLYZkYd/Screenshot-238.png",
+        "https://i.ibb.co/CpBbR09s/Screenshot-204.png",
+        "https://i.ibb.co/XfK8Y4Cc/Screenshot-205.png",
+        "https://i.ibb.co/Hfj76Sfk/Screenshot-206.png",
+        "https://i.ibb.co/0VnHKxwV/Screenshot-207.png",
+        "https://i.ibb.co/Pn8J3qh/Screenshot-210.png",
+        "https://i.ibb.co/bjG848Tq/Screenshot-211.png"
       ],
       "screenshots": []
     },
     {
       "id": 3,
       "mockups": [],
-      "screenshots": []
+      "screenshots": [
+        "https://i.ibb.co/N2mX2ynS/Gemini-Generated-Image-t42a99t42a99t42a.png",
+        "https://i.ibb.co/dsm8V940/Screenshot-327.png",
+        "https://i.ibb.co/ksbRzphN/Screenshot-328.png",
+        "https://i.ibb.co/671bxYWC/Screenshot-329.png",
+        "https://i.ibb.co/zVv2070F/Screenshot-330.png",
+        "https://i.ibb.co/8L16xLGX/Screenshot-326.png"
+      ]
     },
     {
       "id": 4,
@@ -31,6 +44,49 @@
       "id": 5,
       "mockups": [],
       "screenshots": []
+    },
+    {
+      "id": 6,
+      "mockups": [],
+      "screenshots": [
+        "https://i.ibb.co/0jKB4csG/Gemini-Generated-Image-ogtbx3ogtbx3ogtb.png",
+        "https://i.ibb.co/rnSr5vj/Screenshot-83.png",
+        "https://i.ibb.co/nNzZS7QG/Screenshot-84.png",
+        "https://i.ibb.co/JR3GFW14/Screenshot-85.png",
+        "https://i.ibb.co/tMftHvtP/Screenshot-86.png",
+        "https://i.ibb.co/7xCCthyy/Screenshot-87.png"
+      ]
+    },
+    {
+      "id": 7,
+      "mockups": [],
+      "screenshots": [
+        "https://i.ibb.co/kVFt6WTw/Gemini-Generated-Image-nz8l4wnz8l4wnz8l.png",
+        "https://i.ibb.co/01Cyd74/Screenshot-255.png",
+        "https://i.ibb.co/84Xz07d8/Screenshot-256.png",
+        "https://i.ibb.co/JwPgpzyb/Screenshot-257.png",
+        "https://i.ibb.co/yBX1VGfK/Screenshot-258.png",
+        "https://i.ibb.co/CKGwn03y/Screenshot-259.png",
+        "https://i.ibb.co/0RSNRTW0/Screenshot-260.png",
+        "https://i.ibb.co/r2fQL4pL/Screenshot-261.png",
+        "https://i.ibb.co/GfDK9gMf/Screenshot-262.png",
+        "https://i.ibb.co/395mFHzd/Screenshot-263.png",
+        "https://i.ibb.co/RkPCQ55p/Screenshot-254.png"
+      ]
+    },
+    {
+      "id": 8,
+      "mockups": [],
+      "screenshots": [
+        "https://i.ibb.co/TqPdV8gF/Screenshot-331.png",
+        "https://i.ibb.co/8grhHGnt/Screenshot-332.png",
+        "https://i.ibb.co/TBZfD3js/Screenshot-333.png",
+        "https://i.ibb.co/cKfztnqb/Screenshot-334.png",
+        "https://i.ibb.co/sJd7hs0j/Screenshot-335.png",
+        "https://i.ibb.co/jk1kPm5D/Screenshot-336.png",
+        "https://i.ibb.co/8Dsm7t5n/Screenshot-337.png",
+        "https://i.ibb.co/LdXB5sf2/Screenshot-338.png"
+      ]
     }
   ]
 }

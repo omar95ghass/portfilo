@@ -2,24 +2,6 @@ import type { Project, Translations } from './types';
 
 export const PROJECTS: Project[] = [
   {
-    id: 1,
-    title: { en: 'Healthcare Data Integration & Automation', ar: 'تكامل وأتمتة بيانات الرعاية الصحية' },
-    description: {
-      en: 'A system for integrating medical records, automating workflows, and ensuring secure storage.',
-      ar: 'نظام لتكامل السجلات الطبية، أتمتة سير العمل، وضمان التخزين الآمن.',
-    },
-    longDescription: {
-      en: 'Developed a comprehensive system for healthcare centers to streamline data integration, automate workflows, and securely store patient information. The system significantly improved operational efficiency and data accessibility. Key achievements include designing robust APIs for seamless data exchange, developing automated scripts for data cleansing, and engineering a scalable, HIPAA-compliant database architecture.',
-      ar: 'تم تطوير نظام شامل لمراكز الرعاية الصحية لتبسيط تكامل البيانات، وأتمتة سير العمل، وتخزين معلومات المرضى بشكل آمن. أدى النظام إلى تحسين الكفاءة التشغيلية وإمكانية الوصول إلى البيانات بشكل كبير. تشمل الإنجازات الرئيسية تصميم واجهات برمجة تطبيقات قوية للتبادل السلس للبيانات، وتطوير نصوص برمجية آلية لتنظيف البيانات، وهندسة بنية قاعدة بيانات قابلة للتطوير ومتوافقة مع HIPAA.',
-    },
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80',
-    tags: {
-      en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
-      ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
-    },
-    githubUrl: 'https://github.com/omar-alothman',
-  },
-  {
     id: 2,
     title: { en: 'Point of Sale System - POSX', ar: 'نظام POSX لإدارة نقاط البيع' },
     description: {
@@ -30,7 +12,7 @@ export const PROJECTS: Project[] = [
         en: 'Built a user-friendly and efficient Point of Sale (POS) system designed to manage sales transactions, inventory, and customer data for retail businesses. Developed both front-end and back-end components, implemented secure payment processing, and designed an intuitive interface that significantly reduced transaction time.',
         ar: 'بناء نظام نقاط بيع سهل الاستخدام وفعال مصمم لإدارة معاملات البيع والمخزون وبيانات العملاء للشركات التجارية. تم تطوير مكونات الواجهة الأمامية والخلفية، وتنفيذ تكامل آمن لمعالجة الدفع، وتصميم واجهة بديهية قللت بشكل كبير من وقت المعاملات.',
     },
-    imageUrl: 'https://i.ibb.co/nMLjZzX9/posx.png',
+    imageUrl: 'https://i.ibb.co/Gf7C25QX/Gemini-Generated-Image-gsmo9egsmo9egsmo.png',
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'SQLite', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'SQLite', 'AJAX'],
@@ -48,7 +30,7 @@ export const PROJECTS: Project[] = [
         en: 'Engineered a sophisticated system to efficiently manage customer queues and facilitate calling mechanisms in high-traffic service centers. Key responsibilities included designing the core logic for queue management, developing a real-time notification system for calling customers, and creating an administrative dashboard for monitoring.',
         ar: 'هندسة نظام متطور لإدارة طوابير العملاء بكفاءة وتسهيل آليات النداء في مراكز الخدمة المزدحمة. تضمنت المسؤوليات الرئيسية تصميم المنطق الأساسي لإدارة الطابور، وتطوير نظام إشعارات في الوقت الفعلي لمناداة العملاء، وإنشاء لوحة تحكم إدارية للمراقبة.',
     },
-    imageUrl: 'https://i.ibb.co/F4qknZN8/cms.png',
+    imageUrl: 'https://i.ibb.co/N2mX2ynS/Gemini-Generated-Image-t42a99t42a99t42a.png',
     tags: {
       en: ['PHP', 'React', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'React', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
@@ -66,7 +48,7 @@ export const PROJECTS: Project[] = [
       en: 'Created a comprehensive medical archiving program for clinics and hospitals, digitizing patient records, medical images, and administrative documents for easy and secure storage. Designed a scalable database schema, developed an intuitive UI for document handling, and implemented robust security features for data encryption and access control.',
       ar: 'إنشاء برنامج أرشفة طبية شامل للعيادات والمستشفيات، لرقمنة سجلات المرضى والصور الطبية والمستندات الإدارية لتخزين سهل وآمن. تم تصميم مخطط قاعدة بيانات قابل للتطوير، وتطوير واجهة مستخدم بديهية لمعالجة المستندات، وتنفيذ ميزات أمان قوية لتشفير البيانات والتحكم في الوصول.',
     },
-    imageUrl: 'https://www.medicalwebexperts.com/static/fa41d20823ebb69e62ae93c57b83b949/c6bbb/mobile-web-apps-medical-web-experts-1.jpg',
+    imageUrl: 'https://i.ibb.co/v66MjLNb/Gemini-Generated-Image-3bk3g33bk3g33bk3.png',
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
@@ -88,6 +70,60 @@ export const PROJECTS: Project[] = [
     tags: {
       en: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
       ar: ['PHP', 'HTML5', 'Bootstrap', 'JS', 'RESTful APIs', 'MySQL', 'AJAX'],
+    },
+    githubUrl: 'https://github.com/omar-alothman',
+  },
+   {
+    id: 6,
+    title: { en: 'Interactive Clinic Management System - DenSys', ar: 'تطبيق إدارة العيادة السنية التفاعلي DenSys' },
+    description: {
+      en: 'An interactive clinic management system with real-time notifications and dashboard for monitoring patient data and appointments.',
+      ar: 'تطبيق إدارة العيادة السنية التفاعلي مع إشعارات ولوحة تحكم لمراقبة البيانات المرضى والمواعيد.',
+    },
+    longDescription: {
+      en: 'Engineered an interactive clinic management system to securely and efficiently record patient data, interactively manage appointments, and enhance operational efficiency. Key responsibilities included designing the core logic for appointment scheduling, developing a real-time notification system for patient reminders, and creating an interactive dashboard for monitoring.',
+      ar: 'هندسة نظام إدارة العيادة السنية التفاعلي لتسجيل بيانات المرضى بشكل آمن وفعال وتفاعلي، وإدارة المواعيد بشكل تفاعلي، وتحسين الكفاءة التشغيلية. تضمنت المسؤوليات الرئيسية تصميم المنطق الأساسي لتخصيص المواعيد، وتطوير نظام إشعارات في الوقت الفعلي لتذكير المرضى، وإنشاء لوحة تحكم تفاعلية للمراقبة.',
+    },
+    imageUrl: 'https://i.ibb.co/0jKB4csG/Gemini-Generated-Image-ogtbx3ogtbx3ogtb.png',
+    tags: {
+      en: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
+      ar: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
+    },
+    githubUrl: 'https://github.com/omar-alothman',
+  },
+   {
+    id: 7,
+    title: { en: 'Parking Management System - ParX', ar: 'تطبيق إدارة مواقف السيارات ParX' },
+    description: {
+      en: 'A system for managing parking spaces and recording vehicle data securely and efficiently and interactively',
+      ar: 'تطبيق إدارة مواقف السيارات وتسجيل بياناتها بشكل آمن وفعال وتفاعلي',
+    },
+    longDescription: {
+      en: 'Engineered a comprehensive parking management system to securely and efficiently record vehicle data, interactively manage parking spaces, and enhance operational efficiency. Key responsibilities included designing the core logic for parking space allocation, developing a real-time notification system for vehicle entry and exit, and creating an interactive dashboard for monitoring.',
+      ar: 'هندسة نظام إدارة مواقف السيارات كامل لتسجيل بيانات السيارات بشكل آمن وفعال وتفاعلي، وإدارة مساحات المواقف بشكل تفاعلي، وتحسين الكفاءة التشغيلية. تضمنت المسؤوليات الرئيسية تصميم المنطق الأساسي لتخصيص مساحات المواقف، وتطوير نظام إشعارات في الوقت الفعلي لدخول وخروج السيارات، وإنشاء لوحة تحكم تفاعلية للمراقبة.',
+    },
+    imageUrl: 'https://i.ibb.co/kVFt6WTw/Gemini-Generated-Image-nz8l4wnz8l4wnz8l.png',
+    tags: {
+      en: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
+      ar: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
+    },
+    githubUrl: 'https://github.com/omar-alothman',
+  },
+   {
+    id: 8,
+    title: { en: 'Store website for clients', ar: 'موقع المتجر للعميل' },
+    description: {
+      en: 'A store website for a client with a modern and responsive design',
+      ar: 'موقع المتجر للعميل بتصميم موحد ومتكامل ومتجاوب ويعمل على جميع الأجهزة',
+    },
+    longDescription: {
+      en: 'Designed and developed a responsive and user-friendly store website for a client, ensuring seamless integration with their existing systems and enhancing their online presence. Key responsibilities included creating a clean and intuitive UI, implementing secure payment processing, and optimizing the site for SEO and performance.',
+      ar: 'تصميم وتطوير موقع المتجر للعميل بتصميم موحد ومتكامل ومتجاوب ويعمل على جميع الأجهزة، ويضمن تكامله مع النظام الحالي للعميل وتحسين حضوره الإلكتروني. تضمنت المسؤوليات الرئيسية تصميم واجهة مستخدم بديهية ومريحة، وتنفيذ معالجة الدفع بشكل آمن، وتحسين الموقع للبحث الإلكتروني والأداء.',
+    },
+    imageUrl: 'https://i.ibb.co/5gnKDmKt/Gemini-Generated-Image-pcvd11pcvd11pcvd.png',
+    tags: {
+      en: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
+      ar: ['REACT', 'NODE.JS', 'nextjs', 'HTML5', 'Bootstrap', 'RESTful APIs', 'MySQL', 'AJAX'],
     },
     githubUrl: 'https://github.com/omar-alothman',
   },
