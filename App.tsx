@@ -6,6 +6,8 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { ProjectCard } from './components/ProjectCard';
 import { GitHubIcon } from './components/Icons';
+import { ImageCarousel } from './components/ImageCarousel';
+import { getProjectImages, hasProjectImages } from './utils/projectImages';
 
 type Page = 'home' | 'about' | 'resume' | 'contact';
 
@@ -185,10 +187,21 @@ const ContactPage: React.FC = () => {
 const ProjectDetailPage: React.FC<{ project: Project; onBack: () => void }> = ({ project, onBack }) => {
     const { language } = useLanguage();
     const t = TRANSLATIONS[language].projectDetail as { [key: string]: string };
+    const projectImages = getProjectImages(project.id);
+    const hasImages = hasProjectImages(project.id);
+
     return (
         <div className="container mx-auto px-6 py-12 animate-fade-in-up">
-            <div className="max-w-4xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
-                <img src={project.imageUrl} alt={project.title[language]} className="w-full h-64 object-cover" />
+            <div className="max-w-6xl mx-auto bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden">
+                {/* Project Screenshots Carousel */}
+                {hasImages && projectImages.length > 0 ? (
+                    <div className="w-full mb-8 p-4 md:p-6">
+                        <ImageCarousel images={projectImages} projectTitle={project.title[language]} />
+                    </div>
+                ) : (
+                    <img src={project.imageUrl} alt={project.title[language]} className="w-full h-64 object-cover" />
+                )}
+                
                 <div className="p-8 md:p-12">
                     <h2 className="text-4xl font-bold text-white mb-4">{project.title[language]}</h2>
                     <p className="text-gray-300 leading-loose mb-8">{project.longDescription[language]}</p>
